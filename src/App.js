@@ -4,7 +4,7 @@ import { ApolloProvider } from 'react-apollo'
 import Launches from './Launches'
 
 const client = new ApolloClient({
-  uri: 'http://localhost:9000/graphql',
+  uri: 'https://spacex-server.herokuapp.com/graphql',
 })
 
 class App extends Component {
